@@ -34,4 +34,4 @@ async def on_member_update(before, after):
                 role = before.guild.get_role(role_id=before.guild.troles[1])
                 await before.add_roles(role, reason='Trigger role', atomic=True)
 
-bot.run('NTgxNTA2OTQxMzYxMTkyOTYw.XnRozg.BEZhxB9vH2eIdIfUln9D0N2Wxn4')
+bot.run('token')
